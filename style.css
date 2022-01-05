@@ -5,6 +5,9 @@
         box-sizing: border-box;
         
 }
+body {
+    width: 1440px;
+}
 /* HEADER  */
 #header {
     max-width: 1440px;
@@ -117,12 +120,14 @@
 #bowl-h1 {
     color:#FFFFFF;
     margin-top: 240px;
-    font-size: 32px;
-    font-weight: 100;
+    font-size: 24px;
+    
     margin-left: 140px;
     position: absolute;
 }
-
+#leaders,#title {
+    font-weight: 300;
+}
 #bowl p {
     margin-top: 375px;
     margin-left: 143px;
@@ -791,6 +796,7 @@ margin-left:233px !important
 }
 #slider {
     margin-bottom: 150px;
+    display: flex;
 }
 #circle-left {
     transform: translate(239%,-67%);
